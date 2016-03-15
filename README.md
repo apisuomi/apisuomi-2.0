@@ -28,3 +28,9 @@ Kansallisen palveluväylän rajapintapalvelujen metatiedot tuodaan harvestoimall
 
 Suositut API:en kehittämiseen liittyvät artikkelit ja API-talouteen ja hyviin käytäntöihin liittyvät jutut kirjoitetaan edelleen jollain blogimoottorilla joka voisi olla nyt joku muu kuin Wordpress. Koska API:Suomi katalogin pohjaksi on valittu apinf.io ratkaisu, jonka frontend on rakennettu Meteor -alustan päälle, olisi luontevaa tehdä blogimoottorikin saman alustan päälle vaikkakin sitten omana instanssina. 
 
+API:Suomi palvelusta tehdään entistä enemmän ykköspaikka julkaista uusien rajapintapalvelujen ilmoitukset, julkisen sektorin API:en kehittämiseen liittyvien asioiden julkaisupaikka ja kanava. Niin kuin ennenkin, kehittäjille paikka kertoa oman palvelukehityksensä tarina tai kokemukset eri teknologioista. 
+
+## Tapahtumat
+
+API:Suomi palveluun tulee mahdollisuus ilmoittaa API-tapahtumista yhtä reittiä koko API-yhteisölle. 
+
