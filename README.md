@@ -12,9 +12,9 @@ API-hallinta apinf.io sisältää myös API-katalogin. Lisäksi kehittäjät voi
 
 ### Yritysten API:t mukaan
 
-Trkoitus on saattaa julkisen ja yksityisen sektorin API:en tiedot yhteen ja saada siten tietoa yhteen pisteeseen. API:a hyödyntävän kehittäjän kannalta on aivan sama onko rajapintapalvelu yksityisen vai julkisen sektorin kehittämä tai ylläpitämä. 
+Lisätään tarjontaa ja siten kiihdytetään palvelukehitystä, dialogia API:en omistajien ja käyttäjien välillä ja luodaan kilpailua. Tarkoitus on saattaa julkisen ja yksityisen sektorin API:en tiedot yhteen ja saada siten tietoa yhteen pisteeseen. API:a hyödyntävän kehittäjän kannalta on aivan sama onko rajapintapalvelu yksityisen vai julkisen sektorin kehittämä tai ylläpitämä. 
 
-Yksityisen sektorin toimijat ovat tervetulleita tuomaan palveluun suljetut, maksulliset ja avoimet rajapintapalvelunsa. Kehittäjät päättävät mitä käytetään jos on useita samantyyppisiä. Lisätään tarjontaa ja siten kiihdytetään palvelukehitystä, dialogia API:en omistajien ja käyttäjien välillä ja luodaan kilpailua. 
+Yksityisen sektorin toimijat ovat tervetulleita tuomaan palveluun suljetut, maksulliset ja avoimet rajapintapalvelunsa. Kehittäjät päättävät mitä käytetään jos on useita samantyyppisiä. Yrityksien kohdalla suljettujen API:en tuominen palveluun edellyttää palvelusopimusta ja nimellistä vuosimaksua. Yrityksille API:Suomi palvelusta tulee paikka näkyä ja päästä kehittäjien "iholle". 
 
 ### Palveluväylän API:t mukaan
 
@@ -26,6 +26,5 @@ Kansallisen palveluväylän rajapintapalvelujen metatiedot tuodaan harvestoimall
 
 ## Artikkelit
 
-Suositut API:en kehittämiseen liittyvät artikkelit ja API-talouteen ja hyviin käytäntöihin liittyvät jutut kirjoitetaan edelleen jollain blogimoottorilla joka voisi olla nyt joku muu kuin Wordpress. 
+Suositut API:en kehittämiseen liittyvät artikkelit ja API-talouteen ja hyviin käytäntöihin liittyvät jutut kirjoitetaan edelleen jollain blogimoottorilla joka voisi olla nyt joku muu kuin Wordpress. Koska API:Suomi katalogin pohjaksi on valittu apinf.io ratkaisu, jonka frontend on rakennettu Meteor -alustan päälle, olisi luontevaa tehdä blogimoottorikin saman alustan päälle vaikkakin sitten omana instanssina. 
 
-## 
