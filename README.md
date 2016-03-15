@@ -10,6 +10,10 @@ API:Suomen API-katalogi tulee perustumaan harvestointiin ja avoimen lähdekoodin
 
 API-hallinta apinf.io sisältää myös API-katalogin. Lisäksi kehittäjät voivat antaa API:n omistajalle palautetta antamalla palvelulle tähtiä tai lähettämällä palautetta. API:en omistajat voivat palvelussa julkaista oman backloginsa jos niin tahtovat tarjoten näin API:en hyödyntäjille suuntaa-antavaa tietoa rajapintapalvelun kehittämisestä.  
 
+## Yritysten API:t mukaan enemmän
+TArkoitus on saattaa julkisen ja yksityisen sektorin API:en tiedot yhteen ja saada siten tietoa yhteen pisteeseen. API:a hyödyntävän kehittäjän kannalta on aivan sama onko rajapintapalvelu yksityisen vai julkisen sektorin kehittämä tai ylläpitämä. 
+Yksityisen sektorin toimijat ovat tervetulleita tuomaan palveluun suljetut, maksulliset ja avoimet rajapintapalvelunsa. Kehittäjät päättävät mitä käytetään jos on useita samantyyppisiä. Lisätään tarjontaa ja siten kiihdytetään palvelukehitystä, dialogia API:en omistajien ja käyttäjien välillä ja luodaan kilpailua. 
+
 ### Palveluväylän API:t mukaan
 
 Kansallisen palveluväylän rajapintapalvelujen metatiedot tuodaan harvestoimalla liityntäkatalogista. Siinä ei kuulemma vielä ole julkista rajapintaa API:en metatietojen kyselyyn, mutta kuulemma tulee jos tarvitaan. No mielellään tulisi ettei tarvitse screen scrapeta. Palveluväylän rajapintapalveluja ei hallita API:Suomi -yhteisön käyttämässä API-hallinnassa, mutta saamme kuitenkin tiedon rajapintapalveluista avoimien palveluiden rinnalle. Palveluväylän rajapintapalvelujen kohdalla kehittäjä ohjataan kysymään käyttöoikeutta palveluväylän kautta. Lähtökohtaisesti yksittäinen henkilö ei niitä saane kuitenkaan käyttöönsä. 
