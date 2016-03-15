@@ -4,6 +4,9 @@ API:Suomi yhteisön nykyinen web syntyi PoC:na yhtenä kesälomana (2014) kun aj
 Nyt on aika ottaa seuraava askel ja pistää palvelu uusiksi. Tällä kertaa toisin työkaluin ja eri otteella. Nostetaan API:SUomi -yhteisön profiilia kun signaaleja on tullut sen puolesta niin julkisen kuin yksityisenkin sektorin suunnasta. 
 
 ## Kansallinen katalogi ja itsepalvelupiste
+API:Suomen API-katalogi tulee perustumaan harvestointiin ja avoimen lähdekoodin hallintaratkaisuun. API-hallinnan pohjana tullaan käyttämään apinf.io palvelua. Sen avulla kehittäjät voivat ottaa itsepalvelutyyppisesti (avoimet) rajapinnat käyttöön 24/7. API:en omistajat (yksityinen henkilö, yhdistys, yritys, julkinen sektori) voi lisätä omat rajapintapalvelunsa kehittäjien käyttöön 24/7. 
+
+API-hallinta apinf.io sisältää myös API-katalogin. Kansallisen palveluväylän rajapintapalvelujen metatiedot tuodaan harvestoimalla liityntäkatalogista. Siinä ei kuulemma vielä ole julkista rajapintaa API:en metatietojen kyselyyn, mutta kuulemma tulee jos tarvitaan. No mielellään tulisi ettei tarvitse screen scrapeta. 
 
 ## Artikkelit
 
