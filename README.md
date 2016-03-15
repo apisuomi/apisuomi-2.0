@@ -66,4 +66,4 @@ API:Suomi palvelusta tulee de facto paikka digitaalisten palvelujen kehittäjill
 * API Starter Kit (miten alkuun)
 
 ## Alustava malli
-![Alustava malli](https://raw.githubusercontent.com/apisuomi/apisuomi-2.0/master/apisuomi-2.png)
+![Alustava malli](https://raw.githubusercontent.com/apisuomi/apisuomi-2.0/master/apisuomi-2%281%29.png)
