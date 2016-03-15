@@ -63,5 +63,6 @@ Tämän päätapahtuman lisäksi pidetään toki muitakin tapahtumia yhteistyös
 API:Suomi palvelusta tulee de facto paikka digitaalisten palvelujen kehittäjille, jotka käyttävät rajapintoja osana palveluaan. Toisin sanoen 95% kaikista digitaalisten palvelujen kehittäjistä. Palveluun tehdään kehittäjäystävällinen koottu näkymä erilaisiin palvelujen kehittämisessä olennaisiin oppaisiin, manifesteihin ja oppaisiin. Suomi SDK elää ja muuttuu yhteisön syötteiden kautta. Muutama esimerkki sisällöstä:
 * API-manifesti
 * API Guide Lines (käytännön opas API:en toteutukseen)
-* API Starte Kit (miten alkuun)
+* API Starter Kit (miten alkuun)
 
+## Alustava malli
