@@ -20,6 +20,10 @@ Yksityisen sektorin toimijat ovat tervetulleita tuomaan palveluun suljetut, maks
 
 Kansallisen palveluväylän rajapintapalvelujen metatiedot tuodaan harvestoimalla liityntäkatalogista. Siinä ei kuulemma vielä ole julkista rajapintaa API:en metatietojen kyselyyn, mutta kuulemma tulee jos tarvitaan. No mielellään tulisi ettei tarvitse screen scrapeta. Palveluväylän rajapintapalveluja ei hallita API:Suomi -yhteisön käyttämässä API-hallinnassa, mutta saamme kuitenkin tiedon rajapintapalveluista avoimien palveluiden rinnalle. Palveluväylän rajapintapalvelujen kohdalla kehittäjä ohjataan kysymään käyttöoikeutta palveluväylän kautta. Lähtökohtaisesti yksittäinen henkilö ei niitä saane kuitenkaan käyttöönsä. 
 
+## Muut API-hallinnat mukaan
+
+6Aika -hankkeen puitteissa näyttäisi siltä, että kaupungeille syntyy omat API-hallinnat. No niin tai näin, on perusteltua olettaa että API-hallintapisteitä tulee lisää. Ajatus on harvestoida API:en metatiedot joko rajapintojen kautta (jos kohdealustasta löytyy) tai screen scrape -tekniikalla API:Suomi katalogiin. Useat API-hallinnat sisältää rajapinnat tätä varten. 
+
 ## Artikkelit
 
 Suositut API:en kehittämiseen liittyvät artikkelit ja API-talouteen ja hyviin käytäntöihin liittyvät jutut kirjoitetaan edelleen jollain blogimoottorilla joka voisi olla nyt joku muu kuin Wordpress. 
