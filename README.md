@@ -14,7 +14,7 @@ API-hallinta apinf.io sisältää myös API-katalogin. Lisäksi kehittäjät voi
 
 Lisätään tarjontaa ja siten kiihdytetään palvelukehitystä, dialogia API:en omistajien ja käyttäjien välillä ja luodaan kilpailua. Tarkoitus on saattaa julkisen ja yksityisen sektorin API:en tiedot yhteen ja saada siten tietoa yhteen pisteeseen. API:a hyödyntävän kehittäjän kannalta on aivan sama onko rajapintapalvelu yksityisen vai julkisen sektorin kehittämä tai ylläpitämä. 
 
-Yksityisen sektorin toimijat ovat tervetulleita tuomaan palveluun suljetut, maksulliset ja avoimet rajapintapalvelunsa. Kehittäjät päättävät mitä käytetään jos on useita samantyyppisiä. Yrityksien kohdalla suljettujen API:en tuominen palveluun edellyttää palvelusopimusta ja nimellistä vuosimaksua. Yrityksille API:Suomi palvelusta tulee paikka näkyä ja päästä kehittäjien "iholle". 
+Yksityisen sektorin toimijat ovat tervetulleita tuomaan palveluun suljetut, maksulliset ja avoimet rajapintapalvelunsa. Kehittäjät päättävät mitä käytetään jos on useita samantyyppisiä. Yrityksien kohdalla suljettujen API:en tuominen palveluun edellyttää palvelusopimusta ja nimellistä vuosimaksua. Raha käytetään palvelun ylläpitoon ja kehittämiseen. Yrityksille API:Suomi palvelusta tulee paikka näkyä ja päästä kehittäjien "iholle". 
 
 ### Palveluväylän API:t mukaan
 
@@ -32,5 +32,7 @@ API:Suomi palvelusta tehdään entistä enemmän ykköspaikka julkaista uusien r
 
 ## Tapahtumat
 
-API:Suomi palveluun tulee mahdollisuus ilmoittaa API-tapahtumista yhtä reittiä koko API-yhteisölle. 
+API:Suomi palveluun tulee mahdollisuus ilmoittaa API-tapahtumista yhtä reittiä koko API-yhteisölle. API:Suomi yhteisön päätapahtumaksi tulee API Days Nordic, joka pidetään kerran vuodessa. Tämän päätapahtuman lisäksi pidetään toki muitakin tapahtumia yhteistyössä julkisen ja yksityisen sektorin kanssa. 
 
+## Suomi SDK
+API:Suomi palvelusta tulee de facto paikka digitaalisten palvelujen kehittäjille, jotka käyttävät rajapintoja osana palveluaan. Toisin sanoen 95% kaikista digitaalisten palvelujen kehittäjistä. Palveluun tehdään kehittäjäystävällinen koottu näkymä erilaisiin palvelujen kehittämisessä olennaisiin oppaisiin, manifesteihin ja oppaisiin. Suomi SDK elää ja muuttuu yhteisön syötteiden kautta. 
