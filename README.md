@@ -10,7 +10,7 @@ API:Suomen API-katalogi tulee perustumaan harvestointiin ja avoimen lähdekoodin
 
 API-hallinta apinf.io sisältää myös API-katalogin. Lisäksi kehittäjät voivat antaa API:n omistajalle palautetta antamalla palvelulle tähtiä tai lähettämällä palautetta. API:en omistajat voivat palvelussa julkaista oman backloginsa jos niin tahtovat tarjoten näin API:en hyödyntäjille suuntaa-antavaa tietoa rajapintapalvelun kehittämisestä.  
 
-## Yritysten API:t mukaan enemmän
+### Yritysten API:t mukaan
 
 Trkoitus on saattaa julkisen ja yksityisen sektorin API:en tiedot yhteen ja saada siten tietoa yhteen pisteeseen. API:a hyödyntävän kehittäjän kannalta on aivan sama onko rajapintapalvelu yksityisen vai julkisen sektorin kehittämä tai ylläpitämä. 
 
