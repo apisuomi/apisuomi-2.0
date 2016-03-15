@@ -3,6 +3,23 @@ API:Suomi yhteisön nykyinen web syntyi PoC:na yhtenä kesälomana (2014) kun aj
 
 Nyt on aika ottaa seuraava askel ja pistää palvelu uusiksi. Tällä kertaa toisin työkaluin ja eri otteella. Nostetaan API:SUomi -yhteisön profiilia kun signaaleja on tullut sen puolesta niin julkisen kuin yksityisenkin sektorin suunnasta. Palvelu rakennetaan paras mahdollinen developer experience ohjaavana arvona. 
 
+## Lisäarvoa kaikille
+Kaikille yhteistä lisäarvoa syntyy muun muassa: 
+* API-talouden edistäminen
+* API-tietoisuus lisääntyy kun tieto löytyy
+* Tapahtumat yhdestä paikasta
+* Törmäytetään eri sektoreita
+* API Days Nordic vuosittainen päätapahtuma (Joint X-Road Community:lle myös)
+
+Julkinen sektori:
+* API:t yhdessä paikassa
+* Promoaa palveluväylää tulevien rokkistarojen suuntaan (developers)
+
+Yritykset:
+* omat API:t esille, lisää asiakkaita/kumppaneita
+* newsletter (yhteisömanagerin tuottamana) 
+
+
 ## Kansallinen katalogi ja itsepalvelupiste
 API:Suomen API-katalogi tulee perustumaan harvestointiin ja avoimen lähdekoodin hallintaratkaisuun. API-hallinnan pohjana tullaan käyttämään apinf.io palvelua. Sen avulla 
 * kehittäjät voivat ottaa itsepalvelutyyppisesti (avoimet) rajapinnat käyttöön 24/7. 
