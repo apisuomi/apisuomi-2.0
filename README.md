@@ -10,6 +10,8 @@ API:Suomen API-katalogi tulee perustumaan harvestointiin ja avoimen lähdekoodin
 
 API-hallinta apinf.io sisältää myös API-katalogin. Lisäksi kehittäjät voivat antaa API:n omistajalle palautetta antamalla palvelulle tähtiä tai lähettämällä palautetta. API:en omistajat voivat palvelussa julkaista oman backloginsa jos niin tahtovat tarjoten näin API:en hyödyntäjille suuntaa-antavaa tietoa rajapintapalvelun kehittämisestä.  
 
+Jokaisesta API:sta pyritään saamaan palvelun piiriin myös koneluettava speksi (Swagger, RAML tai muu vastaava)
+
 ### Yritysten API:t mukaan
 
 Lisätään tarjontaa ja siten kiihdytetään palvelukehitystä, dialogia API:en omistajien ja käyttäjien välillä ja luodaan kilpailua. Tarkoitus on saattaa julkisen ja yksityisen sektorin API:en tiedot yhteen ja saada siten tietoa yhteen pisteeseen. API:a hyödyntävän kehittäjän kannalta on aivan sama onko rajapintapalvelu yksityisen vai julkisen sektorin kehittämä tai ylläpitämä. 
@@ -39,4 +41,8 @@ API:Suomi palveluun tulee mahdollisuus ilmoittaa API-tapahtumista yhtä reittiä
 Tämän päätapahtuman lisäksi pidetään toki muitakin tapahtumia yhteistyössä julkisen ja yksityisen sektorin kanssa. 
 
 ## Suomi SDK
-API:Suomi palvelusta tulee de facto paikka digitaalisten palvelujen kehittäjille, jotka käyttävät rajapintoja osana palveluaan. Toisin sanoen 95% kaikista digitaalisten palvelujen kehittäjistä. Palveluun tehdään kehittäjäystävällinen koottu näkymä erilaisiin palvelujen kehittämisessä olennaisiin oppaisiin, manifesteihin ja oppaisiin. Suomi SDK elää ja muuttuu yhteisön syötteiden kautta. 
+API:Suomi palvelusta tulee de facto paikka digitaalisten palvelujen kehittäjille, jotka käyttävät rajapintoja osana palveluaan. Toisin sanoen 95% kaikista digitaalisten palvelujen kehittäjistä. Palveluun tehdään kehittäjäystävällinen koottu näkymä erilaisiin palvelujen kehittämisessä olennaisiin oppaisiin, manifesteihin ja oppaisiin. Suomi SDK elää ja muuttuu yhteisön syötteiden kautta. Muutama esimerkki sisällöstä:
+* API-manifesti
+* API Guide Lines (käytännön opas API:en toteutukseen)
+* API Starte Kit (miten alkuun)
+
