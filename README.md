@@ -8,7 +8,11 @@ API:Suomen API-katalogi tulee perustumaan harvestointiin ja avoimen lähdekoodin
 * kehittäjät voivat ottaa itsepalvelutyyppisesti (avoimet) rajapinnat käyttöön 24/7. 
 * API:en omistajat (yksityinen henkilö, yhdistys, yritys, julkinen sektori) voi lisätä omat rajapintapalvelunsa kehittäjien käyttöön 24/7. 
 
-API-hallinta apinf.io sisältää myös API-katalogin. Kansallisen palveluväylän rajapintapalvelujen metatiedot tuodaan harvestoimalla liityntäkatalogista. Siinä ei kuulemma vielä ole julkista rajapintaa API:en metatietojen kyselyyn, mutta kuulemma tulee jos tarvitaan. No mielellään tulisi ettei tarvitse screen scrapeta. 
+API-hallinta apinf.io sisältää myös API-katalogin. 
+
+### Palveluväylän API:t mukaan
+
+Kansallisen palveluväylän rajapintapalvelujen metatiedot tuodaan harvestoimalla liityntäkatalogista. Siinä ei kuulemma vielä ole julkista rajapintaa API:en metatietojen kyselyyn, mutta kuulemma tulee jos tarvitaan. No mielellään tulisi ettei tarvitse screen scrapeta. Palveluväylän rajapintapalveluja ei hallita API:Suomi -yhteisön käyttämässä API-hallinnassa, mutta saamme kuitenkin tiedon rajapintapalveluista avoimien palveluiden rinnalle. Palveluväylän rajapintapalvelujen kohdalla kehittäjä ohjataan kysymään käyttöoikeutta palveluväylän kautta. Lähtökohtaisesti yksittäinen henkilö ei niitä saane kuitenkaan käyttöönsä. 
 
 ## Artikkelit
 
