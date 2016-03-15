@@ -34,7 +34,7 @@ API:Suomi palvelusta tehdään entistä enemmän ykköspaikka julkaista uusien r
 
 API:Suomi palveluun tulee mahdollisuus ilmoittaa API-tapahtumista yhtä reittiä koko API-yhteisölle. API:Suomi yhteisön päätapahtumaksi tulee API Days Nordic, joka pidetään kerran vuodessa. 
 
-[API Days Nordic](https://raw.githubusercontent.com/apisuomi/apisuomi-2.0/master/apidaysnordiclogo.png)
+![API Days Nordic](https://raw.githubusercontent.com/apisuomi/apisuomi-2.0/master/apidaysnordiclogo.png)
 
 Tämän päätapahtuman lisäksi pidetään toki muitakin tapahtumia yhteistyössä julkisen ja yksityisen sektorin kanssa. 
 
