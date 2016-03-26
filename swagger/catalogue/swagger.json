@@ -1,0 +1,9 @@
+{
+  "swagger" : "2.0",
+  "info" : {
+    "version" : "0.1",
+    "title" : "API:Suomi 2.0 catalogue API",
+    "description" : "Read and write API for API:Suomi 2.0 catalogue. Access to API information. Enables publishing APIs in this catalogue"
+  },
+  "paths" : { }
+}
