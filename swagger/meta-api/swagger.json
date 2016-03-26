@@ -1,0 +1,9 @@
+{
+  "swagger" : "2.0",
+  "info" : {
+    "version" : "0.1",
+    "title" : "API:Suomi 2.0",
+    "description" : "Read API for API:Suomi 2.0 meta data about articles and stats"
+  },
+  "paths" : { }
+}
