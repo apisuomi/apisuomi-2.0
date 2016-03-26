@@ -7,7 +7,7 @@ Catalogue contains public APIs from:
 * apinf.io 
 * 6Aika cities [future task, not discussed yet with 6Aika]
 
-We are open to add more API sources to be added to API:Suomi catalogue. We do not harvest single APIs. If you have APIs without management, use for example apinf.io.  
+We are open to add more API sources to be added to API:Suomi catalogue. **We do not harvest single APIs**. If you have APIs without management, use for example apinf.io.  
 
 ## What can be done with this API
 With API key any user is able to: 
