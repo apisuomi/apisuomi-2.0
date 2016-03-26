@@ -1,4 +1,7 @@
 # API:Suomi 2.0
+
+![new logo API:Suomi 2.0](https://raw.githubusercontent.com/apisuomi/apisuomi-2.0/master/logo/apisuomi-big.png)
+
 API:Suomi yhteisön nykyinen web syntyi PoC:na yhtenä kesälomana (2014) kun ajatuksena oli vain kokeilla nopeasti että miten voisi tehdä minimivaivalla testin siitä tarvitaanko Suomessa tällaista "palvelua". No sittemmin kävi ilmi, että tarvitaan. Sisältöä käytetään osana opetusta korkeakouluissa ja jatkuvasti "kompakti" listaus rajapinnoista keikkuu kävijälistan suosikkina. Sisältöä API:Suomi webiin on kertynyt yli 100 artikkelia. Yhteisöllä on Facebook -ryhmässä kompakti mutta ajoittain aktiivinen reilun 200 -hengen porukka teknologiasta ja busineksesta kiinnostuneita ihmisiä. 
 
 ## Kansallinen sateenvarjo - yhdistää API-yhteisön
