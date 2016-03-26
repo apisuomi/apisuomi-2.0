@@ -21,8 +21,9 @@ With API key any user is able to:
 Authenticated users are able to:
 * all the above
 * Add new API to publishing queue (admins reject or publish). Required metadata defined below. 
-* Remove new API (owned by authenticated user)
+* Remove/update API (owned by authenticated user)
 * Unpublish/unpublish API (owned by authenticated user)
+* Remove comment from API (owned by authenticated user)
 
 ## Specifications 
 Machine readable API Spec (swagger 2.0) in [swaggerhub](https://swaggerhub.com/api/kyyberi/APISuomi-2.0-catalogue-api/0.1) and in this repository. 
