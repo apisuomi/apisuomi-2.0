@@ -20,6 +20,7 @@ With API key any user is able to:
 
 Authenticated users are able to:
 * all the above
+* get publishing queue (for APIS owned by authenticated user)
 * Add new API to publishing queue (admins reject or publish). Required metadata defined below. 
 * Remove/update API (owned by authenticated user)
 * Unpublish/unpublish API (owned by authenticated user)
