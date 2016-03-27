@@ -157,6 +157,37 @@
           }
         }
       }
+    },
+    "/apis/id/{id}/comments" : {
+      "get" : {
+        "x-swagger-router-controller" : "getcomments",
+        "tags" : [ "comments" ],
+        "description" : "Returns comments of given API",
+        "parameters" : [ {
+          "name" : "id",
+          "description" : "ID of wanted API.",
+          "in" : "path",
+          "type" : "integer",
+          "required" : true
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "Successful response",
+            "schema" : {
+              "type" : "array",
+              "items" : {
+                "$ref" : "#/definitions/comment"
+              }
+            }
+          },
+          "default" : {
+            "description" : "unexpected error",
+            "schema" : {
+              "$ref" : "#/definitions/Error"
+            }
+          }
+        }
+      }
     }
   },
   "definitions" : {
@@ -181,6 +212,25 @@
           "type" : "string"
         },
         "tag" : {
+          "type" : "string"
+        }
+      }
+    },
+    "comment" : {
+      "type" : "object",
+      "required" : [ "id" ],
+      "properties" : {
+        "id" : {
+          "type" : "integer",
+          "format" : "int64"
+        },
+        "content" : {
+          "type" : "string"
+        },
+        "author_name" : {
+          "type" : "string"
+        },
+        "date" : {
           "type" : "string"
         }
       }
