@@ -171,7 +171,13 @@
         "title" : {
           "type" : "string"
         },
+        "description" : {
+          "type" : "string"
+        },
         "publisher_name" : {
+          "type" : "string"
+        },
+        "publisher_organization" : {
           "type" : "string"
         },
         "tag" : {
