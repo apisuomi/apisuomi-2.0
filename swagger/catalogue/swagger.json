@@ -5,5 +5,192 @@
     "title" : "API:Suomi 2.0 catalogue API",
     "description" : "Read and write API for API:Suomi 2.0 catalogue. Access to API information. Enables publishing APIs in this catalogue"
   },
-  "paths" : { }
+  "host" : "localhost:10010",
+  "basePath" : "/api",
+  "schemes" : [ "http" ],
+  "paths" : {
+    "/apis/" : {
+      "get" : {
+        "x-swagger-router-controller" : "getapis",
+        "operationId" : "getAPIs",
+        "tags" : [ "APIs" ],
+        "description" : "Returns list of available API titles",
+        "parameters" : [ {
+          "name" : "limit",
+          "in" : "query",
+          "description" : "number of APIs to return",
+          "type" : "integer",
+          "default" : 100,
+          "minimum" : 100,
+          "maximum" : 5000
+        }, {
+          "name" : "order",
+          "in" : "query",
+          "description" : "sort by title. For ascending use 'asc' and for descending use 'desc')",
+          "type" : "string",
+          "default" : "asc"
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "Successful response",
+            "schema" : {
+              "type" : "array",
+              "items" : {
+                "$ref" : "#/definitions/API"
+              }
+            }
+          },
+          "default" : {
+            "description" : "unexpected error",
+            "schema" : {
+              "$ref" : "#/definitions/Error"
+            }
+          }
+        }
+      }
+    },
+    "/apis/{year}" : {
+      "get" : {
+        "x-swagger-router-controller" : "getapis",
+        "tags" : [ "APIs" ],
+        "description" : "Returns list of available API titles by year",
+        "parameters" : [ {
+          "name" : "year",
+          "description" : "wanted year",
+          "in" : "path",
+          "type" : "integer",
+          "required" : true
+        }, {
+          "name" : "limit",
+          "in" : "query",
+          "description" : "number of APIs to return",
+          "type" : "integer",
+          "default" : 100,
+          "minimum" : 100,
+          "maximum" : 5000
+        }, {
+          "name" : "order",
+          "in" : "query",
+          "description" : "sort by title. For ascending use 'asc' and for descending use 'desc')",
+          "type" : "string",
+          "default" : "asc"
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "Successful response",
+            "schema" : {
+              "type" : "array",
+              "items" : {
+                "$ref" : "#/definitions/API"
+              }
+            }
+          },
+          "default" : {
+            "description" : "unexpected error",
+            "schema" : {
+              "$ref" : "#/definitions/Error"
+            }
+          }
+        }
+      }
+    },
+    "/apis/latest" : {
+      "get" : {
+        "x-swagger-router-controller" : "getapis",
+        "tags" : [ "APIs" ],
+        "description" : "Returns list of latest published APIs",
+        "parameters" : [ {
+          "name" : "limit",
+          "in" : "query",
+          "description" : "number of APIs to return",
+          "type" : "integer",
+          "default" : 10,
+          "minimum" : 10,
+          "maximum" : 100
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "Successful response",
+            "schema" : {
+              "type" : "array",
+              "items" : {
+                "$ref" : "#/definitions/API"
+              }
+            }
+          },
+          "default" : {
+            "description" : "unexpected error",
+            "schema" : {
+              "$ref" : "#/definitions/Error"
+            }
+          }
+        }
+      }
+    },
+    "/apis/id/{id}" : {
+      "get" : {
+        "x-swagger-router-controller" : "getapis",
+        "tags" : [ "APIs" ],
+        "description" : "Returns details of given API",
+        "parameters" : [ {
+          "name" : "id",
+          "description" : "ID of wanted API.",
+          "in" : "path",
+          "type" : "integer",
+          "required" : true
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "Successful response",
+            "schema" : {
+              "type" : "array",
+              "items" : {
+                "$ref" : "#/definitions/API"
+              }
+            }
+          },
+          "default" : {
+            "description" : "unexpected error",
+            "schema" : {
+              "$ref" : "#/definitions/Error"
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions" : {
+    "API" : {
+      "type" : "object",
+      "required" : [ "id", "title" ],
+      "properties" : {
+        "id" : {
+          "type" : "integer",
+          "format" : "int64"
+        },
+        "title" : {
+          "type" : "string"
+        },
+        "publisher_name" : {
+          "type" : "string"
+        },
+        "tag" : {
+          "type" : "string"
+        }
+      }
+    },
+    "Error" : {
+      "type" : "object",
+      "required" : [ "code", "message" ],
+      "properties" : {
+        "code" : {
+          "type" : "integer",
+          "format" : "int32"
+        },
+        "message" : {
+          "type" : "string"
+        }
+      }
+    }
+  }
 }
