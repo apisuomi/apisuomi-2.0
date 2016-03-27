@@ -26,7 +26,7 @@
         }, {
           "name" : "order",
           "in" : "query",
-          "description" : "sort by title. For ascending use 'asc' and for descending use 'desc')",
+          "description" : "sort by date. For ascending use 'asc' and for descending use 'desc')",
           "type" : "string",
           "default" : "asc"
         } ],
@@ -71,7 +71,7 @@
         }, {
           "name" : "order",
           "in" : "query",
-          "description" : "sort by title. For ascending use 'asc' and for descending use 'desc')",
+          "description" : "sort by date. For ascending use 'asc' and for descending use 'desc')",
           "type" : "string",
           "default" : "asc"
         } ],
