@@ -188,6 +188,30 @@
           }
         }
       }
+    },
+    "/apis/new" : {
+      "get" : {
+        "x-swagger-router-controller" : "newapi",
+        "tags" : [ "admin" ],
+        "description" : "Returns comments of given API",
+        "responses" : {
+          "200" : {
+            "description" : "Successful response",
+            "schema" : {
+              "type" : "array",
+              "items" : {
+                "$ref" : "#/definitions/newapi"
+              }
+            }
+          },
+          "default" : {
+            "description" : "unexpected error",
+            "schema" : {
+              "$ref" : "#/definitions/Error"
+            }
+          }
+        }
+      }
     }
   },
   "definitions" : {
@@ -203,6 +227,30 @@
           "type" : "string"
         },
         "description" : {
+          "type" : "string"
+        },
+        "publisher_name" : {
+          "type" : "string"
+        },
+        "publisher_organization" : {
+          "type" : "string"
+        },
+        "tag" : {
+          "type" : "string"
+        }
+      }
+    },
+    "newapi" : {
+      "type" : "object",
+      "required" : [ "title", "description", "endpoint" ],
+      "properties" : {
+        "title" : {
+          "type" : "string"
+        },
+        "description" : {
+          "type" : "string"
+        },
+        "endpoint" : {
           "type" : "string"
         },
         "publisher_name" : {
