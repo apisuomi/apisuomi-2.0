@@ -189,11 +189,11 @@
         }
       }
     },
-    "/apis/new" : {
+    "/apis/admin/new" : {
       "get" : {
         "x-swagger-router-controller" : "newapi",
         "tags" : [ "Admin" ],
-        "description" : "Returns comments of given API",
+        "description" : "Add new API",
         "responses" : {
           "200" : {
             "description" : "Successful response",
@@ -212,12 +212,43 @@
           }
         }
       }
+    },
+    "/apis/admin/publish/id/{id}" : {
+      "get" : {
+        "x-swagger-router-controller" : "newapi",
+        "tags" : [ "Admin" ],
+        "description" : "Publish given API",
+        "parameters" : [ {
+          "name" : "id",
+          "description" : "ID of wanted API.",
+          "in" : "path",
+          "type" : "integer",
+          "required" : true
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "Successful response",
+            "schema" : {
+              "type" : "array",
+              "items" : {
+                "$ref" : "#/definitions/API"
+              }
+            }
+          },
+          "default" : {
+            "description" : "unexpected error",
+            "schema" : {
+              "$ref" : "#/definitions/Error"
+            }
+          }
+        }
+      }
     }
   },
   "definitions" : {
     "API" : {
       "type" : "object",
-      "required" : [ "id", "title" ],
+      "required" : [ "id" ],
       "properties" : {
         "id" : {
           "type" : "integer",
