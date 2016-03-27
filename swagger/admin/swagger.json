@@ -1,0 +1,190 @@
+{
+  "swagger" : "2.0",
+  "info" : {
+    "version" : "0.1",
+    "title" : "API:Suomi 2.0 catalogue admin API",
+    "description" : "Admin API for API:Suomi 2.0 catalogue. Enables APIs management in this catalogue"
+  },
+  "host" : "localhost:10010",
+  "basePath" : "/api",
+  "schemes" : [ "https" ],
+  "paths" : {
+    "/apis/latest" : {
+      "get" : {
+        "x-swagger-router-controller" : "getapis",
+        "tags" : [ "APIs" ],
+        "description" : "Returns list of latest published or unpublished APIs",
+        "parameters" : [ {
+          "name" : "limit",
+          "in" : "query",
+          "description" : "number of APIs to return",
+          "type" : "integer",
+          "default" : 10,
+          "minimum" : 10,
+          "maximum" : 100
+        }, {
+          "name" : "status",
+          "in" : "query",
+          "description" : "published or unpublished",
+          "type" : "string",
+          "default" : "unpublished"
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "Successful response",
+            "schema" : {
+              "type" : "array",
+              "items" : {
+                "$ref" : "#/definitions/API"
+              }
+            }
+          },
+          "default" : {
+            "description" : "unexpected error",
+            "schema" : {
+              "$ref" : "#/definitions/Error"
+            }
+          }
+        }
+      }
+    },
+    "/apis/id/{id}" : {
+      "post" : {
+        "x-swagger-router-controller" : "updateapi",
+        "tags" : [ "Admin" ],
+        "description" : "Update given API",
+        "parameters" : [ {
+          "name" : "id",
+          "description" : "ID of wanted API.",
+          "in" : "path",
+          "type" : "integer",
+          "required" : true
+        } ],
+        "responses" : {
+          "200" : {
+            "description" : "Successful response",
+            "schema" : {
+              "type" : "array",
+              "items" : {
+                "$ref" : "#/definitions/API"
+              }
+            }
+          },
+          "default" : {
+            "description" : "unexpected error",
+            "schema" : {
+              "$ref" : "#/definitions/Error"
+            }
+          }
+        }
+      }
+    },
+    "/apis/new" : {
+      "post" : {
+        "x-swagger-router-controller" : "newapi",
+        "tags" : [ "Admin" ],
+        "description" : "Add new API",
+        "responses" : {
+          "200" : {
+            "description" : "Successful response",
+            "schema" : {
+              "type" : "array",
+              "items" : {
+                "$ref" : "#/definitions/newapi"
+              }
+            }
+          },
+          "default" : {
+            "description" : "unexpected error",
+            "schema" : {
+              "$ref" : "#/definitions/Error"
+            }
+          }
+        }
+      }
+    }
+  },
+  "definitions" : {
+    "API" : {
+      "type" : "object",
+      "required" : [ "id" ],
+      "properties" : {
+        "id" : {
+          "type" : "integer",
+          "format" : "int64"
+        },
+        "title" : {
+          "type" : "string"
+        },
+        "description" : {
+          "type" : "string"
+        },
+        "publisher_name" : {
+          "type" : "string"
+        },
+        "publisher_organization" : {
+          "type" : "string"
+        },
+        "tag" : {
+          "type" : "string"
+        }
+      }
+    },
+    "user" : {
+      "type" : "object",
+      "required" : [ "id" ],
+      "properties" : {
+        "id" : {
+          "type" : "integer",
+          "format" : "int64"
+        },
+        "username" : {
+          "type" : "string"
+        },
+        "organizatio" : {
+          "type" : "string"
+        },
+        "role" : {
+          "type" : "string"
+        }
+      }
+    },
+    "newapi" : {
+      "type" : "object",
+      "required" : [ "title", "description", "endpoint" ],
+      "properties" : {
+        "title" : {
+          "type" : "string"
+        },
+        "description" : {
+          "type" : "string"
+        },
+        "endpoint" : {
+          "type" : "string"
+        },
+        "publisher_name" : {
+          "type" : "string"
+        },
+        "publisher_organization" : {
+          "type" : "string"
+        },
+        "tag" : {
+          "type" : "string"
+        }
+      }
+    },
+    "Error" : {
+      "type" : "object",
+      "required" : [ "code", "message" ],
+      "properties" : {
+        "code" : {
+          "type" : "integer",
+          "format" : "int32"
+        },
+        "message" : {
+          "type" : "string"
+        }
+      }
+    }
+  }
+}
