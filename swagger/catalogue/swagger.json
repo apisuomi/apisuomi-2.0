@@ -213,69 +213,7 @@
         }
       }
     },
-    "/admin/publish/id/{id}" : {
-      "get" : {
-        "x-swagger-router-controller" : "newapi",
-        "tags" : [ "Admin" ],
-        "description" : "Publish given API",
-        "parameters" : [ {
-          "name" : "id",
-          "description" : "ID of wanted API.",
-          "in" : "path",
-          "type" : "integer",
-          "required" : true
-        } ],
-        "responses" : {
-          "200" : {
-            "description" : "Successful response",
-            "schema" : {
-              "type" : "array",
-              "items" : {
-                "$ref" : "#/definitions/API"
-              }
-            }
-          },
-          "default" : {
-            "description" : "unexpected error",
-            "schema" : {
-              "$ref" : "#/definitions/Error"
-            }
-          }
-        }
-      }
-    },
-    "/admin/unpublish/id/{id}" : {
-      "get" : {
-        "x-swagger-router-controller" : "newapi",
-        "tags" : [ "Admin" ],
-        "description" : "Unpublish given API",
-        "parameters" : [ {
-          "name" : "id",
-          "description" : "ID of wanted API.",
-          "in" : "path",
-          "type" : "integer",
-          "required" : true
-        } ],
-        "responses" : {
-          "200" : {
-            "description" : "Successful response",
-            "schema" : {
-              "type" : "array",
-              "items" : {
-                "$ref" : "#/definitions/API"
-              }
-            }
-          },
-          "default" : {
-            "description" : "unexpected error",
-            "schema" : {
-              "$ref" : "#/definitions/Error"
-            }
-          }
-        }
-      }
-    },
-    "/admin/delete/id/{id}" : {
+    "/admin/id/{id}" : {
       "get" : {
         "x-swagger-router-controller" : "newapi",
         "tags" : [ "Admin" ],
