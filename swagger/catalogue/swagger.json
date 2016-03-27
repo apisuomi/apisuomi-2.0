@@ -192,7 +192,7 @@
     "/apis/new" : {
       "get" : {
         "x-swagger-router-controller" : "newapi",
-        "tags" : [ "admin" ],
+        "tags" : [ "Admin" ],
         "description" : "Returns comments of given API",
         "responses" : {
           "200" : {
