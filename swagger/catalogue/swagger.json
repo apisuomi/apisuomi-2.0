@@ -189,7 +189,7 @@
         }
       }
     },
-    "/apis/admin/new" : {
+    "/admin/new" : {
       "get" : {
         "x-swagger-router-controller" : "newapi",
         "tags" : [ "Admin" ],
@@ -213,7 +213,7 @@
         }
       }
     },
-    "/apis/admin/publish/id/{id}" : {
+    "/admin/publish/id/{id}" : {
       "get" : {
         "x-swagger-router-controller" : "newapi",
         "tags" : [ "Admin" ],
