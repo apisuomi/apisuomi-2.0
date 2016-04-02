@@ -5,7 +5,7 @@
 * collect log of operations
 * User interfaces: API and UI
 
-## Get meta date about X-Road APIs
+## Get meta data about X-Road APIs
 
 API list from url:
 * https://liityntakatalogi.suomi.fi/api/3/action/help_show?name=package_list, which returns:
