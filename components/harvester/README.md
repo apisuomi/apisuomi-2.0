@@ -5,3 +5,16 @@
 * collect log of operations
 * User interfaces: API and UI
 
+## Get meta date about X-Road APIs
+
+API list from url:
+* https://liityntakatalogi.suomi.fi/api/3/action/help_show?name=package_list, which returns:
+
+```
+{"help":
+"https://liityntakatalogi.suomi.fi/api/3/action/help_show?name=package_list", "success": true, "result": ["vtjkysely-sovelluskysely-hetuhaku"]}
+```
+It is assumed that above resultset will be comma separated array of API identifiers (for example: vtjkysely-sovelluskysely-hetuhaku)
+
+API details in JSON format can be obtained with: 
+* https://liityntakatalogi.suomi.fi/api/3/action/package_search?q=vtjkysely-sovelluskysely-hetuhaku
