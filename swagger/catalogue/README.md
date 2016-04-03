@@ -27,6 +27,8 @@ Authenticated users are able to:
 ## Crowdsourced development in SwaggerHub
 Machine readable API (swagger 2.0) spec for this API is defined in collaboration in ![SwaggerHub](https://swaggerhub.com/api/kyyberi/APISuomi-2.0-catalogue-api/0.1). If you wish to join swaggerhub apisuomi crew, contact ![Jarkko Moilanen](https://github.com/kyyberi)
 
+![Swaggerhub](https://raw.githubusercontent.com/apisuomi/apisuomi-2.0/master/swagger/catalogue/swagger-apisuomi-catalogue-api.png)
+
 ## Contribute via Github
 The other way to contribute is via github. Swaggerhub API spec is synced with ![spec file in Github](https://github.com/apisuomi/apisuomi-2.0/blob/master/swagger/catalogue/swagger.json) 
 
