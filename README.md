@@ -42,7 +42,7 @@ Yksityisen sektorin toimijat ovat tervetulleita tuomaan palveluun suljetut, maks
 
 ### Palveluväylän API:t mukaan
 
-Kansallisen palveluväylän rajapintapalvelujen metatiedot tuodaan ![harvestoimalla liityntäkatalogista](https://github.com/apisuomi/apisuomi-2.0/tree/master/components/harvester). Siinä ei kuulemma vielä ole julkista rajapintaa API:en metatietojen kyselyyn, mutta kuulemma tulee jos tarvitaan. No mielellään tulisi ettei tarvitse screen scrapeta. Palveluväylän rajapintapalveluja ei hallita API:Suomi -yhteisön käyttämässä API-hallinnassa, mutta saamme kuitenkin tiedon rajapintapalveluista avoimien palveluiden rinnalle. Palveluväylän rajapintapalvelujen kohdalla kehittäjä ohjataan kysymään käyttöoikeutta palveluväylän kautta. Lähtökohtaisesti yksittäinen henkilö ei niitä saane kuitenkaan käyttöönsä. 
+Kansallisen palveluväylän rajapintapalvelujen metatiedot tuodaan ![harvestoimalla liityntäkatalogista](https://github.com/apisuomi/apisuomi-2.0/tree/master/components/harvester) käyttäen sen omaa API:a. Palveluväylän rajapintapalveluja ei hallita API:Suomi -yhteisön käyttämässä API-hallinnassa, mutta saamme kuitenkin tiedon rajapintapalveluista avoimien palveluiden rinnalle. Palveluväylän rajapintapalvelujen kohdalla kehittäjä ohjataan kysymään käyttöoikeutta palveluväylän kautta. Lähtökohtaisesti yksittäinen henkilö ei niitä saane kuitenkaan käyttöönsä. 
 
 ### Kaupunkien ja muiden yhteisöjen API-hallinnat mukaan
 
