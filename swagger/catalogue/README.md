@@ -24,7 +24,7 @@ Authenticated users are able to:
 * Add new API to publishing queue (admins reject or publish). Required metadata defined below. 
 
 
-## Specifications 
+## Crowdsourced specifications 
 Machine readable API Spec (swagger 2.0) in [swaggerhub](https://swaggerhub.com/api/kyyberi/APISuomi-2.0-catalogue-api/0.1) and in this repository. 
 
 ## API metadata
