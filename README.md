@@ -44,9 +44,13 @@ Yksityisen sektorin toimijat ovat tervetulleita tuomaan palveluun suljetut, maks
 
 Kansallisen palveluväylän rajapintapalvelujen metatiedot tuodaan ![harvestoimalla liityntäkatalogista](https://github.com/apisuomi/apisuomi-2.0/tree/master/components/harvester) käyttäen sen omaa API:a. Palveluväylän rajapintapalveluja ei hallita API:Suomi -yhteisön käyttämässä API-hallinnassa, mutta saamme kuitenkin tiedon rajapintapalveluista avoimien palveluiden rinnalle. Palveluväylän rajapintapalvelujen kohdalla kehittäjä ohjataan kysymään käyttöoikeutta palveluväylän kautta. Lähtökohtaisesti yksittäinen henkilö ei niitä saane kuitenkaan käyttöönsä. 
 
+* ![Lue lisää harvesterista](https://github.com/apisuomi/apisuomi-2.0/tree/master/components/harvester)
+
 ### Kaupunkien ja muiden yhteisöjen API-hallinnat mukaan
 
 6Aika -hankkeen puitteissa näyttäisi siltä, että kaupungeille syntyy omat API-hallinnat. No niin tai näin, on perusteltua olettaa että API-hallintapisteitä tulee lisää. Ajatus on harvestoida API:en metatiedot joko rajapintojen kautta (jos kohdealustasta löytyy) tai screen scrape -tekniikalla API:Suomi katalogiin. Useat API-hallinnat sisältää rajapinnat tätä varten. 
+
+* ![Lue lisää harvesterista](https://github.com/apisuomi/apisuomi-2.0/tree/master/components/harvester)
 
 ## Artikkelit
 
