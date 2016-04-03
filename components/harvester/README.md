@@ -4,7 +4,9 @@
 * enable harvesting of other API-catalogues with RSS feed or metadata API. 
 * enable timing configuration of each source harvesting
 * collect log of operations
+* Own database
 * User interfaces: API and UI
+* Provide method for public/community to add single API to catalogue via API and GUI
 
 ## Development notes
 
