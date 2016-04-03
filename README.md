@@ -14,7 +14,7 @@ Kaikille yhteistä lisäarvoa syntyy muun muassa:
 * API-tietoisuus lisääntyy kun tieto löytyy
 * Tapahtumat yhdestä paikasta
 * Törmäytetään eri sektoreita
-* API Days Nordic vuosittainen päätapahtuma (Joint X-Road Community:lle myös)
+* API Days Nordic vuosittainen päätapahtuma myös ![Joint X-Road Community:lle](https://jointxroad.github.io/) 
 
 Julkinen sektori:
 * API:t yhdessä paikassa
