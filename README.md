@@ -74,3 +74,6 @@ API:Suomi palvelusta tulee de facto paikka digitaalisten palvelujen kehittäjill
 
 ## Alustava malli
 ![Alustava malli](https://raw.githubusercontent.com/apisuomi/apisuomi-2.0/master/apisuomi-2%281%29.png)
+
+## Komponentit (v 0.3)
+![components version 0.3](https://raw.githubusercontent.com/apisuomi/apisuomi-2.0/master/components/apisuomi2-0-components%282%29.png)
