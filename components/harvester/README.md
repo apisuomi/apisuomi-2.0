@@ -13,7 +13,7 @@
 ### Get meta data about X-Road APIs
 
 API list from url:
-* https://liityntakatalogi.suomi.fi/api/3/action/help_show?name=package_list, which returns:
+* https://liityntakatalogi.suomi.fi/api/3/action/package_list, which returns:
 
 ```
 {"help":
