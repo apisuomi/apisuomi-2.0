@@ -2,11 +2,8 @@
 
 
 require_relative "includes/xroad-harvester"
-require_relative "includes/database"
+#require_relative "includes/database"
 require 'mongo'
-
-
-include Mongo
 
 #################################################################
 ## GET JSON list of X-Road services and process them
@@ -21,10 +18,20 @@ xroadentries = harvester.get_xroad_service_list()
 #puts "revision list: "
 #puts xroadrevisions
 
+Mongo::Logger.logger.level = Logger::WARN
+# db = Mongo::Client.new(@client_host, @client_options)
+db = Mongo::Client.new(["localhost:27017"], :database => 'apisuomi', :user => 'apisuomi', :password => 'develop')
+xroadapis = db[:xroadapis, :capped => false]
+#xroadapis.create
+
 xroadentries.each do |i|
-       entry = harvester.get_xroad_service_details(i)
-       puts entry
+       	entry = harvester.get_xroad_service_details(i)
+	puts "\n----------- ENTRY -----------\n"
+	newname = entry["result"]["results"][0]["name"]
+	puts newname
+	xroadapis.insert_one({
+		name: newname
+	})
 end
 
-Mongo::Logger.logger.level = Logger::WARN
-client = Mongo::Client.new(@client_host, @client_options)
+#db.xroadapis.each { |name| puts name }
