@@ -21,10 +21,10 @@ xroadentries = harvester.get_xroad_service_list()
 #puts "revision list: "
 #puts xroadrevisions
 
-#xroadentries.each do |i|
-#       entry = harvester.get_xroad_service_details(i)
-#       puts entry
-#end
+xroadentries.each do |i|
+       entry = harvester.get_xroad_service_details(i)
+       puts entry
+end
 
 Mongo::Logger.logger.level = Logger::WARN
 client = Mongo::Client.new(@client_host, @client_options)

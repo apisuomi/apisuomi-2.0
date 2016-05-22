@@ -11,23 +11,30 @@ class XroadHarvester
 	def get_xroad_service_details(name)
 	# return JSON object with details
 		url = @search_url + name
-		response = RestClient.get(url)
-        	ret = JSON.parse(response)
-		# TODO check if valid
-		return ret
+		RestClient.get(url){ |response, request, result, &block|
+			case response.code
+                        when 200
+                                res = JSON.parse(response)
+                                return res
+                        when 403
+                                return response
+                        end
+                }
+
 	end
 
 	def get_xroad_service_list()
 	# returns JSON array
-		content = RestClient.get(@list_url)
-		case content.code
-		when 200  
-			response = JSON.parse(content)
-			arraylist = response["result"]	
-			return arraylist
-		when 403
-			return content
-		end
+		RestClient.get(@list_url){ |response, request, result, &block|
+			case response.code
+			when 200  
+				res = JSON.parse(response)
+				arraylist = res["result"]	
+				return arraylist
+			when 403
+				return response
+			end
+		}
 	end
 
 	def get_xroad_service_revision_list()
