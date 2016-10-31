@@ -2,11 +2,11 @@
 
 ![new logo API:Suomi 2.0](https://raw.githubusercontent.com/apisuomi/apisuomi-2.0/master/logo/apisuomi-big.png)
 
-API:Suomi yhteisön nykyinen web syntyi PoC:na yhtenä kesälomana (2014) kun ajatuksena oli vain kokeilla nopeasti että miten voisi tehdä minimivaivalla testin siitä tarvitaanko Suomessa tällaista "palvelua". No sittemmin kävi ilmi, että tarvitaan. Sisältöä käytetään osana opetusta korkeakouluissa ja jatkuvasti "kompakti" listaus rajapinnoista keikkuu kävijälistan suosikkina. Sisältöä API:Suomi webiin on kertynyt yli 100 artikkelia. Yhteisöllä on Facebook -ryhmässä kompakti mutta ajoittain aktiivinen reilun 200 -hengen porukka teknologiasta ja busineksesta kiinnostuneita ihmisiä. 
+{API:Suomi} -yhteisön nykyinen internetsivu syntyi PoC:na yhtenä kesälomana (2014), kun ajatuksena oli vain kokeilla nopeasti "miten voisi tehdä minimivaivalla testin siitä tarvitaanko Suomessa tällaista palvelua". No sittemmin kävi ilmi, että tarvitaan. Sisältöä käytetään osana opetusta korkeakouluissa ja jatkuvasti "kompakti" listaus ohjelmistorajapinnoista pysyi kävijälistan suosikkina. Sisältöä {API:Suomi} sivustolle on kertynyt yli 100 artikkelia. Yhteisöllä on Facebook-ryhmässä kompakti, mutta ajoittain aktiivinen reilun lähes 300 henkilön ryhmä teknologiasta ja liiketoiminnasta kiinnostuneita ihmisiä. 
 
 ## Kansallinen sateenvarjo - yhdistää API-yhteisön
 
-Nyt on aika ottaa seuraava askel ja pistää palvelu uusiksi. Tällä kertaa toisin työkaluin ja eri otteella. Nostetaan API:SUomi -yhteisön profiilia kun signaaleja on tullut sen puolesta niin julkisen kuin yksityisenkin sektorin suunnasta. Palvelu rakennetaan paras mahdollinen developer experience ohjaavana arvona. 
+Nyt on aika ottaa seuraava askel ja päivittää palvelu uusiksi. Tällä kertaa toisin työkaluin ja eri otteella. Nostetaan {API:Suomi} -yhteisön profiilia, kun signaaleja on tullut sen puolesta niin julkisen kuin yksityisenkin sektorin suunnasta. Palvelu rakennetaan paras mahdollinen developer experience ohjaavana arvona. 
 
 ## Lisäarvoa kaikille
 Kaikille yhteistä lisäarvoa syntyy muun muassa: 
